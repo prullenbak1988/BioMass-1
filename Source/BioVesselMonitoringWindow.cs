@@ -182,7 +182,7 @@ namespace KSPBioMass
         {
             if (value1 <= 0.0)
             {
-                return "Infinity";
+                return "Equilibrium";
             }
 
             double value = value2;
@@ -202,7 +202,7 @@ namespace KSPBioMass
 
             if (Double.IsInfinity(seconds))
             {
-                return "Infinity";
+                return "Equlibrium";
             }
 
             long minutes = (long)(seconds / SECONDS_PER_MINUTE);
